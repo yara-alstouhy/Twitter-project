@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Serif:opsz,wght@8..144,900&display=swap');
+
+/* left side bar css */
+.navbar2{
+    font-family: poppins;
+    font-weight: 500;
+    width: 23vw;
+    height: 100vh;
+    background-color: #ffff;
+    position: fixed;
+    left: 3%;
+    bottom: -1%;
+   
+}
+/* first part in left side bar */
+.updiv{
+    
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-self: auto;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 50%;
+    
+}
+.boxlink{
+    
+    border-style: hidden;
+    text-decoration: none;
+    color: #0f1419;
+}
+.boxlink:hover{
+    padding: 1%;
+/* width: 75%; */
+width: 100%;
+height:fit-content;
+border-radius: 2em 2em 2em 2em;
+background-color: #e7e7e8;
+text-align: center;}
+span{margin-left: 1vw;
+position: relative;
+top: -24%;}
+#home{position: relative;
+top: -10%;
+}
+
+.photo{
+    width: 28px;
+    height: 28px;
+    scale: .8;
+    
+}
+/* logo hover */
+.bird{scale:1.3}
+.bird:hover{
+border-radius:50%;
+border:none;
+border-width: .9em;
+background-color: #e7e7e8;
+}
+/* button */
+.tweetbutton{
+  
+    width: 10em;
+    height: 1em;
+    padding: 10%;
+    border-radius: 2em;
+    background-color: #339cee;
+    color: white;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+.Tweetkadry{
+    text-align: center;
+   position: absolute;
+   right: 40%;
+   top: 20%;
+}
+.tweetbutton:hover{
+    background-color: #2e8dd6;
+}
+/* secound part  */
+.downdiv{
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    margin-top: -5em;
+    margin-left: 5em; 
+    text-decoration: none;
+    color: #e7e7e8;
+    justify-content: center;
+    width: 20vw;
+
+}
+.all{text-decoration: none;color:#0f1419;text-align: center;}
+.photopf{
+    width: 33px;
+     height: 33px;
+     text-decoration: none
+     ;position: relative
+     ;top: 1.5vh;
+     border-radius: 50%;
+}
+.sp{
+    text-decoration: none;
+    color:#0f1419;
+}
+.us{
+    margin-left:2.2vw;
+    color: #808080;
+}
+.all:hover{background-color: #e7e7e8;
+/* border-radius: 2em 2em 2em 2em; */
+border-radius: 18vw;
+width: 20vw;text-align: center;
+height: fit-content;
+padding-bottom: 1%;}
+
+  /* media query for left side bar */
+@media (min-width:700px) and (max-width:1280px){
+    .span{
+        display: none;
+    }
+    .mor{display: none;}
+    .tweetbutton{display: none;}
+    .sp,.us{display: none;}
+    .navbar2{width:20%;left:-2%;}
+    .photopf{position: relative;left:-244%}
+    
+}  
+@media (min-width:1000px) and (max-width:1280px){
+ .container{
+    left:19%; 
+    
+} 
+.navbar1{
+    font-size: 0.5rem;
+    font-weight: 700;
+}
+
+
+.navbar1{
+    left: 60%;
+} 
+}
